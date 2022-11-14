@@ -2,7 +2,7 @@
 //
 // Created by: Emmanuel Fofeyin
 // Created on: Oct 2022
-// This program uses while loops
+// This program uses for loops
 
 #include <iostream>
 #include <string>
