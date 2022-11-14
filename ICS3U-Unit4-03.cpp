@@ -28,19 +28,20 @@ int main() {
         positiveInteger = positiveFloat;
         if (positiveInteger == positiveFloat) {
             if (positiveInteger >= 0) {
-                for (int loopCounter = 0; loopCounter <= positiveInteger; loopCounter++) {
+                for (int loopCounter = 0; loopCounter
+                 <= positiveInteger; loopCounter++) {
                     squaredNumber = loopCounter * loopCounter;
                     std::cout << "" << loopCounter << "²"
                               << " = " << squaredNumber << std::endl;
                 }
             } else {
-                std::cout << " You did not enter a positive integer." << std::endl;
+            std::cout << "You did not enter a positive integer." << std::endl;
             }
         } else {
             std::cout << "You did not enter an integer." << std::endl;
         }
     } catch (std::invalid_argument) {
-        std::cout << " You did not enter an integer." << std::endl;
+        std::cout << "You did not enter an integer." << std::endl;
     }
 
     std::cout << "\nDone.";
